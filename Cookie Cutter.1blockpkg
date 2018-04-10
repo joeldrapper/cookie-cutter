@@ -1,0 +1,122 @@
+[{
+  "id": "C5B2F68B-E186-4F3B-AD28-AB18D22B4B28",
+  "name": "Cookie Cutter",
+  "rules": [{
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["*youtube.com"]
+      }
+    },
+    "name": "YouTube",
+    "id": "ABA17F07-5ADC-4D8A-BBB0-6BBFD7EFC4C6"
+  }, {
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["news.google.ca", "news.google.com", "news.google.co.uk"]
+      }
+    },
+    "name": "Google News",
+    "id": "0361E920-E0A0-47D3-8970-B7D5B9F1703A"
+  }, {
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["scholar.google.ca", "scholar.google.com", "scholar.google.co.uk"]
+      }
+    },
+    "name": "Google Scholar",
+    "id": "1B761003-15D4-4B63-93DB-76B0F04AA4D3"
+  }, {
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["google.ca", "google.com", "google.co.uk", "www.google.ca", "www.google.com", "www.google.co.uk"]
+      }
+    },
+    "name": "Google Search",
+    "id": "FF913514-05B0-48A6-92C2-C2B03074F8E2"
+  }, {
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["patents.google.ca", "patents.google.com", "patents.google.co.uk"]
+      }
+    },
+    "name": "Google Patents",
+    "id": "D58A1D56-047D-43E0-BF62-D9D22C0854BF"
+  }, {
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["translate.google.ca", "translate.google.com", "translate.google.co.uk"]
+      }
+    },
+    "name": "Google Translate",
+    "id": "57646836-997A-4912-A4D7-7AE57F166D23"
+  }, {
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["trends.google.ca", "trends.google.com", "trends.google.co.uk"]
+      }
+    },
+    "name": "Google Trends",
+    "id": "2BBCE9E6-1147-4659-B582-6F37F961EFAC"
+  }, {
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["images.google.ca", "images.google.com", "images.google.co.uk"]
+      }
+    },
+    "name": "Google Image Search",
+    "id": "4A119730-DB33-45F0-8664-CC92A0345802"
+  }, {
+    "content": {
+      "action": {
+        "type": "block-cookies"
+      },
+      "trigger": {
+        "url-filter-is-case-sensitive": true,
+        "url-filter": ".*",
+        "if-domain": ["books.google.ca", "books.google.com", "books.google.co.uk"]
+      }
+    },
+    "name": "Google Books",
+    "id": "23671018-3D28-4D80-9465-D9CBBCA7459B"
+  }]
+}]
